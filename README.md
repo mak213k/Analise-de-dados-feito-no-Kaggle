@@ -1,36 +1,42 @@
 # 🏆 Kaggle Competition Portfolio
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Portfolio-success.svg)
-![Kaggle](https://img.shields.io/badge/Kaggle-Bronze%20Medals-20BEFF.svg)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
+<p align="center">
 
-> Repositório contendo minhas principais soluções desenvolvidas para competições do **Kaggle**, utilizando técnicas de **Machine Learning**, **Análise Exploratória de Dados (EDA)**, **Engenharia de Features** e **Otimização de Modelos**.
+<img src="./kaggle_expert.png" width="300" alt="Notebooks Expert"/>
 
-O objetivo deste repositório é documentar minha evolução em Ciência de Dados e Machine Learning através de problemas reais, utilizando boas práticas de análise, experimentação e validação de modelos.
+# Machine Learning Competition Portfolio
 
----
+Coleção de notebooks desenvolvidos em competições do **Kaggle**, demonstrando técnicas de Ciência de Dados, Engenharia de Features e Machine Learning.
 
-# 🎯 Objetivos
+🏅 **Kaggle Notebooks Expert**
 
-Este repositório foi criado para:
+🥉 **4 Medalhas de Bronze**
 
-- Documentar soluções desenvolvidas em competições do Kaggle;
-- Consolidar estudos em Ciência de Dados e Machine Learning;
-- Demonstrar abordagens para problemas reais;
-- Servir como portfólio técnico;
-- Registrar a evolução das técnicas utilizadas ao longo do tempo.
+![Kaggle](https://img.shields.io/badge/Kaggle-Bronze%20Medals-20BEFF?logo=kaggle)
+![Data Science](https://img.shields.io/badge/Data-Science-blueviolet)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-success)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+
+
+</p>
 
 ---
 
-# 🥉 Resultados Obtidos
+# 🎯 Objetivo
 
-A maior parte dos notebooks deste repositório obteve **🥉 Medalha de Bronze no Kaggle**.
+Este repositório reúne minhas principais soluções desenvolvidas em competições do Kaggle.
 
-O notebook referente à competição **Spaceship Titanic** foi desenvolvido como estudo, sem obtenção de medalha.
+Cada notebook documenta todo o processo utilizado para resolver problemas reais utilizando Ciência de Dados e Machine Learning, desde a análise exploratória até a submissão final.
 
-Esses resultados demonstram experiência prática em competições de Machine Learning utilizando métricas oficiais e datasets reais.
+---
+
+# 🏅 Conquistas
+
+| Conquista | Resultado |
+|------------|-----------|
+| Kaggle Notebooks Expert | 🏅 |
+| Medalhas Kaggle | 🥉🥉🥉🥉🥉 |
+| Competições | 5 |
 
 ---
 
@@ -38,186 +44,103 @@ Esses resultados demonstram experiência prática em competições de Machine Le
 
 | Competição | Tipo | Resultado |
 |------------|------|-----------|
-| Predicting Road Accident Risk | Classificação | 🥉 Bronze Medal |
-| Predicting Loan Payback | Classificação | 🥉 Bronze Medal |
-| Predicting Heart Disease | Classificação | 🥉 Bronze Medal |
-| Predicting Student Test Scores | Regressão | 🥉 Bronze Medal |
-| Spaceship Titanic | Classificação | Estudo |
+| Predicting Road Accident Risk | Classificação | 🥉 Bronze |
+| Predicting Loan Payback | Classificação | 🥉 Bronze |
+| Predicting Heart Disease | Classificação | 🥉 Bronze |
+| Predicting Student Test Scores | Regressão | 🥉 Bronze |
+| Spaceship Titanic | Classificação | 🥉 Bronze |
 
 ---
 
-# 📁 Estrutura do Repositório
+# 🧠 Competências
 
-```text
-.
-├── 0.05590_v10_Predicting_Road_Accident_Risk.ipynb
-├── 0.78676_V12_Spaceship_Titanic.ipynb
-├── 0.91964_V10_S0511_Predicting_Loan_Payback.ipynb
-├── 0.95239_S0602_Predicting Heart Disease.ipynb
-├── 8.78784_V5_S60_Predicting_Student_Test_Scores.ipynb
-└── README.md
-```
-
-Cada notebook é independente e representa uma solução completa para uma competição.
-
----
-
-# 🧠 Competências Demonstradas
-
-Durante o desenvolvimento dos notebooks foram utilizadas técnicas como:
-
-## Ciência de Dados
+### Ciência de Dados
 
 - Data Cleaning
-- Data Wrangling
-- Data Visualization
-- Exploração de Dados (EDA)
-- Tratamento de Dados Ausentes
-- Tratamento de Outliers
+- EDA
+- Visualização
+- Tratamento de Dados
+- Feature Engineering
 
----
-
-## Feature Engineering
-
-- Criação de atributos
-- Seleção de atributos
-- Transformação de variáveis
-- Encoding
-- Escalonamento
-
----
-
-## Machine Learning
+### Machine Learning
 
 - Classificação
 - Regressão
-- Comparação entre modelos
 - Cross Validation
-- Avaliação por métricas oficiais das competições
-- Ajuste de hiperparâmetros
+- Hyperparameter Tuning
+- Ensemble Learning
+- Model Evaluation
 
----
-
-## Ferramentas
+### Ferramentas
 
 - Python
-- Jupyter Notebook
 - Pandas
 - NumPy
 - Matplotlib
 - Scikit-Learn
-
-*(Cada notebook pode utilizar bibliotecas adicionais conforme a necessidade da competição.)*
+- Jupyter Notebook
 
 ---
 
 # 📈 Fluxo de Trabalho
 
-Todos os notebooks seguem, sempre que aplicável, um fluxo semelhante ao abaixo:
-
 ```text
-Entendimento do Problema
-            │
-            ▼
-Carregamento dos Dados
-            │
-            ▼
-Análise Exploratória (EDA)
-            │
-            ▼
-Limpeza dos Dados
-            │
-            ▼
+Problema
+    ↓
+EDA
+    ↓
+Pré-processamento
+    ↓
 Feature Engineering
-            │
-            ▼
-Treinamento dos Modelos
-            │
-            ▼
-Avaliação
-            │
-            ▼
-Geração da Submissão
-            │
-            ▼
-Resultado no Kaggle
+    ↓
+Treinamento
+    ↓
+Validação
+    ↓
+Submissão Kaggle
 ```
 
 ---
 
-# 📚 O que pode ser encontrado neste repositório
+# 📁 Estrutura
 
-Os notebooks incluem exemplos de:
-
-- análise exploratória;
-- preparação de dados;
-- tratamento de valores ausentes;
-- criação de novas variáveis;
-- treinamento de modelos;
-- comparação entre algoritmos;
-- geração de arquivos para submissão no Kaggle;
-- análise dos resultados obtidos.
-
----
-
-# 🎓 Público-alvo
-
-Este repositório pode ser útil para:
-
-- estudantes de Ciência de Dados;
-- estudantes de Machine Learning;
-- profissionais iniciando em competições do Kaggle;
-- candidatos que desejam estudar soluções práticas para problemas reais.
+```text
+.
+├── notebooks_expert.png
+├── README.md
+├── 0.05590_v10_Predicting_Road_Accident_Risk.ipynb
+├── 0.78676_V12_Spaceship_Titanic.ipynb
+├── 0.91964_V10_S0511_Predicting_Loan_Payback.ipynb
+├── 0.95239_S0602_Predicting_Heart_Disease.ipynb
+└── 8.78784_V5_S60_Predicting_Student_Test_Scores.ipynb
+```
 
 ---
 
-# 🚀 Como utilizar
-
-Clone o repositório
+# 🚀 Executando
 
 ```bash
 git clone https://github.com/mak213k/Analise-de-dados-feito-no-Kaggle.git
-```
 
-Entre na pasta
-
-```bash
 cd Analise-de-dados-feito-no-Kaggle
 ```
 
-Instale as bibliotecas necessárias conforme cada notebook.
+Abra qualquer notebook utilizando:
 
-Abra o notebook desejado utilizando:
-
-- Jupyter Notebook
 - JupyterLab
 - VS Code
 - Google Colab
 
----
-
-# 💡 Observações
-
-Como cada competição possui datasets e regras próprias, alguns notebooks podem exigir o download dos dados diretamente pelo Kaggle.
+Os datasets podem ser baixados diretamente nas respectivas competições do Kaggle.
 
 ---
 
-# 🔮 Melhorias Futuras
+# 🎯 Próximos Objetivos
 
-- Inclusão de novas competições
-- Documentação individual de cada notebook
-- Comparação detalhada entre algoritmos
-- Inclusão das métricas obtidas em cada competição
-- Explicação das decisões de engenharia de atributos
-- Organização dos notebooks por categoria (Classificação, Regressão e Séries Temporais)
-
----
-
-# 📌 Próximos Objetivos
-
-- 🥈 Conquistar Medalhas de Prata em competições do Kaggle
-- 🥇 Conquistar Medalhas de Ouro
-- Expandir o portfólio para problemas de Deep Learning e IA Generativa
+- 🥈 Conquistar Medalha de Prata
+- 🥇 Conquistar Medalha de Ouro
+- 🤖 Expandir para Deep Learning
+- 🧠 Publicar novas soluções
 
 ---
 
@@ -225,16 +148,12 @@ Como cada competição possui datasets e regras próprias, alguns notebooks pode
 
 **Mayko Costa**
 
-Especialista em Python, Engenharia de Dados, Machine Learning e Inteligência Artificial.
+Data Engineer • Machine Learning • Artificial Intelligence
 
-- GitHub: https://github.com/mak213k
-- Kaggle: https://www.kaggle.com/makrrc
-- LinkedIn: https://www.linkedin.com/in/maykocosta/
+- 💼 LinkedIn: https://www.linkedin.com/in/maykocosta/
+- 💻 GitHub: https://github.com/mak213k
+- 🏆 Kaggle: https://www.kaggle.com/makrrc
 
 ---
 
-# ⭐ Apoie este projeto
-
-Se este repositório foi útil para seus estudos ou serviu como referência para competições do Kaggle, considere deixar uma ⭐.
-
-Isso incentiva a publicação de novos notebooks e soluções.
+⭐ Se este projeto foi útil, considere deixar uma estrela no repositório.
